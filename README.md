@@ -31,4 +31,4 @@ pip install -r requirements.txt"
 API Key için ise Google Cloud Console'dan ücretsiz deneme sürümüyle giriş yaparak API Keyimizi rahatlıkla alabiliriz.
 Bu API Key'i streamlit içindeki secrets.toml ya da .env dosyamıza dosyalarda olduğu gibi yazmamız gerekiyor.
 
-Daha sonra tüm işlemleri tamamlayınca streamlit run app.py yazarak streamlitimizi çalıştırabiliriz.
+Daha sonra tüm işlemleri tamamlayınca önce .\.venv\Scripts\activate ile giriş yapıp daha sonra python -m streamlit run app.py yazarak streamlitimizi çalıştırabiliriz.
